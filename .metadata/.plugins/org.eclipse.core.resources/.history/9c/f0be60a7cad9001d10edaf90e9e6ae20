@@ -1,0 +1,10 @@
+package com.callor.hello.algebra;
+
+public class BooleanC {
+	public static void main(String[] args) {
+		System.out.println( 33 % 2 == 0);
+		System.out.println( 33 % 2 == 0 ? "응" : "아니");
+		System.out.println( 33 % 2 == 0 ? 33 /2 : "2 : 33 * 2");
+	}
+	
+}
